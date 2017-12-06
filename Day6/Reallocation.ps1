@@ -12,7 +12,6 @@ out of blocks; if it reaches the last memory bank, it wraps around to the first 
 The debugger would like to know how many redistributions can be done before a blocks-in-banks 
 configuration is produced that has been seen before.
 For example, imagine a scenario with only four memory banks:
-
 -The banks start with 0, 2, 7, and 0 blocks. The third bank has the most blocks, so it is chosen 
 for redistribution.
 -Starting with the next bank (the fourth bank) and then continuing to the first bank, the second 

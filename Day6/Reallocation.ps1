@@ -14,6 +14,7 @@ configuration is produced that has been seen before.
 For example, imagine a scenario with only four memory banks:
 -The banks start with 0, 2, 7, and 0 blocks. The third bank has the most blocks, so it is chosen 
 for redistribution.
+
 -Starting with the next bank (the fourth bank) and then continuing to the first bank, the second 
 bank, and so on, the 7 blocks are spread out over the memory banks. The fourth, first, and second 
 banks get two blocks each, and the third bank gets one back. The final result looks like this: 2 4 1 2.
